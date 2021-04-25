@@ -5,11 +5,11 @@ var HALL_ROOM_PORT = 9002;
 var ACCOUNT_PRI_KEY = "^&*#$%()@";
 var ROOM_PRI_KEY = "~!@#$(*&^%$&";
 
-var LOCAL_IP = '8.210.75.15';
+var LOCAL_IP = '127.0.0.1';
 
 exports.mysql = function(){
 	return {
-		HOST:'8.210.75.15',
+		HOST:'127.0.0.1',
 		USER:'root',
 		PSWD:'123456',//如果连接失败，请检查这里
 		DB:'db_scmj',//如果连接失败，请检查这里
