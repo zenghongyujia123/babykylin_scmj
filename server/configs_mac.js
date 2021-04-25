@@ -1,4 +1,4 @@
-﻿var HALL_IP = "127.0.0.1";//如果非本机访问，这里要变
+﻿var HALL_IP = "8.210.75.15";//如果非本机访问，这里要变
 var HALL_CLIENT_PORT = 9001;
 var HALL_ROOM_PORT = 9002;
 
@@ -9,7 +9,7 @@ var LOCAL_IP = 'localhost';
 
 exports.mysql = function(){
 	return {
-		HOST:'127.0.0.1',
+		HOST:'8.210.75.15',
 		USER:'root',
 		PSWD:'123456',//如果连接失败，请检查这里
 		DB:'db_scmj',//如果连接失败，请检查这里
